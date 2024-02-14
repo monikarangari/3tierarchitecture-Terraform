@@ -51,7 +51,7 @@ resource "aws_instance" "PublicWebTemplate" {
   tags = {
     Name = "web-asg"
   }
-}*/
+}
 
 
 resource "aws_instance" "private-app-template" {
@@ -80,7 +80,7 @@ resource "aws_instance" "private-app-template" {
   tags = {
     Name = "app-asg"
   }
-}*/
+}
 
 
 
